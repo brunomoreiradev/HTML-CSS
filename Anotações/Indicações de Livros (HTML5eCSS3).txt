@@ -1,0 +1,31 @@
+gustavoguanabara.github.io
+
+github/gustavoguanabara
+
+referencias:
+
+mdn = mozilla developer network
+
+w3c = world wide web consortium
+
+whatwg living standard = web hypertext application technology working group
+
+w3schools = refsnes data
+
+livros:
+
+html5 = mark pilgrim
+
+css = eric meyer
+
+flexbox in css = estelle weyl
+
+grid layout in css = eric meyer
+
+html5 e css3 = elizabeth castro e bruce hyslop
+
+html5 e css3 = jon duckett
+
+psicologia das cores = eva heller
+
+pensar com tipos = ellen lupton

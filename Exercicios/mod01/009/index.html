@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Exercício 009</title>
+</head>
+<body>
+    <hr>
+    <h1>Listas com HTML5</h1>
+    <hr>
+    <h2>Listas Ordenadas</h2>
+    <p>Lista onde a ordem dos itens é importante, receitas. passo a passo...</p>
+    <p>Ex: Tutorial de como executar um arquivo:</p>
+    <ol>
+        <li>Ache o arquivo desejado</li>
+        <li>Dê dois cliques</li>
+        <li>Será perguntado: <q>Sim ou Não para executar</q></li>
+        <li>Selecione <q>Sim</q></li>
+    </ol>
+    <p>A tag <code>&lt;ol&gt;</code> possui alguns parâmetros onde podemos configurar o marcador da lista com o parâmetro type:</p>
+    <p> 1 - valor padrão(1,2,3,4,5...)<br>
+        A - listas com letras maiúsculas(A,B,C,D,E...)<br>  a - listas com letras minúsculas(a,b,c,d,e...)<br>
+        I - listas com algarismos romanos maiúsculos(I,II,III,IV,V...)<br>
+        i - lista com algarismos romanos minúsculos(i,ii,iii,iv,v...)</p>
+    <p>Você também pode indicar de onde a contagem vai começar usando o parâmetro start:<br>
+    Usando a tag <code>&lt;ol type="I" start = "5"&gt;</code> vai gerar itens como = V, VI, VIII, I,...</p>
+    <h2>Lista Não Ordenada</h2>
+    <p>São listas onde a ordem dos itens não importa, ou seja não tem uma classificação como: primeiro, segundo, terceiro<br>
+    fazendo com elas se tornem listas aleatorias<br>
+     Ex: Frutas e Doces:</p>
+     <ul>
+         <li>Pudim</li>
+         <li>Banana</li>
+         <li>Bolo</li>
+         <li>Maça</li>
+     </ul>
+     <p>Temos alguns marcadores para a tag <code>&lt;ul&gt;</code>:</p>
+    <p>disc - padrão, uma bola preta totalmente pintada<br>
+    circle - uma bola com borda preta e sem preenchimento<br>
+    square - um pequeno quadrado preto totalmente pintado</p>
+    <ul type="disc"><li></li>
+    </ul>
+    <ul type="circle"><li></li>
+    </ul>
+    <ul type="square"><li></li></ul>
+    <h2>Listas e SubListas</h2>
+    <p>Podemos por listas dentro de listas:</p>
+    <ol type="I">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <ol type="i">
+            <li>Item 2.1</li>
+            <li>Item 2.2</li>
+            <li>Item 2.3</li>
+        </ol>
+        <li>Item 3</li>
+    </ol>
+    <h2>Praticando:</h2>
+    <ul>
+        <li>Nintendinho</li>
+        <ol>
+            <li>Mario Bross</li>
+            <ul type="square">
+                <li>Super Mario Bross 3</li>
+                <li>Mario: Lost Levels</li>
+            </ul>
+            <li>Ninja Gaiden</li>
+            <ul type="square">
+                <li>Ninja Gaiden III</li>
+            </ul>
+        </ol> 
+        <li>Super Nintendo</li>
+        <ol>
+            <li>Super Mario World</li>
+            <li>Donkey Kong</li>
+            <ul type="square">
+                <li>Donkey Kong Country III</li>
+                <li>Diddy's Kong Quest</li>
+            </ul>
+        </ol>
+        <li>Playstation 1</li>
+        <ol>
+            <li>Final Fantasy</li>
+            <ul type="square">
+                <li>Final Fantasy VII</li>
+                <li>Final Fantasy IX</li>
+            </ul>
+            <li>Castlevania</li>
+            <ul type-="sqaure">
+                <li>Simphony of the Night</li>
+            </ul>
+        </ol>
+    </ul>
+    <h2>Lista de Definição</h2>
+    <p>Temos que: Termo <code>&lt;dt&gt;</code>, Descrição <code>&lt;dd&gt;</code></p>
+    <ol>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para criação de conteúdo</dd>
+        <dt>CSS</dt>
+        <dd>Edição de alguns parâmetros</dd>
+        <dt>JavaScript</dt>
+        <dd>Interatividade do site</dd>
+    </ol>
+</body>
+</html>

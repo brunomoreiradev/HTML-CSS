@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Exercício 011</title>
+</head>
+<body>
+    <hr>
+    <h1>Imagens Flexíveis</h1>
+    <hr>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou  simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="peq.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="med.png" sizes="image/png">
+        <img src="gra.png" alt="Imagem flexivel">
+    </picture>
+    <h2>Reproduzindo audio</h2>
+    <audio preload="metadata" autoplay controls>
+        <source src="audio/happy-mistake.mp3" type="audio/mpeg">
+        <source src="audio/happy-mistake.mp3" type="audio/ogg">
+        <source src="audio/happy-mistake.mp3" type="audio/wav">
+        <p>Infelizmente seu navegador não suporta <a href="audio/happy-mistake.mp3">faça o dowload aqui</a></p>
+    </audio>
+</body>
+</html>

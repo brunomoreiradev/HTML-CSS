@@ -1,0 +1,8 @@
+www.github.com/gustavoguanabara = url
+
+www = subdominio, existem outros tipos
+
+github.com = dominio ".com", existe alguns tipos esse no caso é TLD = top level domain
+                                                                gTLD = generic top level domain ".edu .store .gov..."
+                                                                ccTLD = country code level domain ".br .uk .us .ar..."
+/gustavoguanabara = caminho

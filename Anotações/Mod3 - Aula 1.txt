@@ -1,0 +1,69 @@
+HTML = focado em conteudo(texto, imagens, tabelas, videos...)
+
+CSS = foco no design da pagina
+
+JV(java script) = interação na pagina como menus, animações...
+
+HTML --> a estrutura basica é:
+                              <!DOCTYPE html>
+                              <html lang="pt-br">
+                               <head>
+                                <meta charset="UTF-8"> (permite os caracteres especiais)
+                                <meta name"viewport"
+                                content="width=device-width,
+                                initial-scale=1.0">
+                                <title>Document</title>
+                               </head>
+                               <body>
+                                <h1>Olá, Mundo!</h1>
+                               </body>
+                              </html>
+
+
+<h1> Exemplo de titulo </h1>
+<p> Exemplo de paragrafo </p>
+<img src="foto.png" alt="Exemplo de foto">
+
+Abertura de tag:
+<h1>
+<p>
+<img src="foto.png" alt="Exemplo de foto">
+
+Conteudo:
+exemplo de titulo
+exemplo de paragrafo
+
+Fechamento de Tag:
+</h1>
+</p>
+
+Parametro:
+alt=
+
+valor:
+exemplo de foto
+
+CSS -->
+
+h1{
+   font-family: Arial;
+   font-size: 20pt;
+   color: blue;
+  }
+
+Seletor:
+h1
+
+Declação:
+tudo que compoem as linhas, par de propiedades e valor
+
+Propriedade:
+font-family
+font-size
+color
+
+Valor:
+Arial
+20pt
+blue
+

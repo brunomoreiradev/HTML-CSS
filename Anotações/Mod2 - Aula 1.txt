@@ -1,0 +1,15 @@
+0 e 1 = binary digit (digito binario), conhecido como "bit", são os dois sinais reconhecidos pelo computador.
+
+"01000001", representa a letra "A" = 8 bits, que compoem 1byte, o minimo para ser reconhecido como um sinal(informação)
+
+multiplos do bits = 1024 bytes = 1 kb
+                     1024 kb = 1 mb
+                      1024 mb = 1 gb
+                        1024 gb = 1 tb
+                           1024 tb = 1 pb
+                               1024 pb =  1 eb
+
+MB diferente de Mb = MB é megabytes usado pra armazenamento, enquanto que Mb é megabits usando para transmissão
+
+Modulação = tranformar de onda quadrada em onda senoidal
+Demodulação =  transformar de onda senoidal em onda quadrada
